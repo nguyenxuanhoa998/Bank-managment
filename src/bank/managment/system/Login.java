@@ -5,7 +5,8 @@ import javax.swing.*;
 public class Login extends JFrame {
     
     Login(){
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource())
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/thumbnail-logo-BIDV.jpg"));
+        
         setTitle("AUTOMATED TELLER MACHINE");
         setSize(800, 400);
         setVisible(true);

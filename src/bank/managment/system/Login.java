@@ -13,7 +13,7 @@ public class Login extends JFrame {
         setLayout(null); // Rất quan trọng khi dùng setBounds
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Load hình ảnh từ thư mục package-icons
+        // Load hình ảnh từ thư mục package-
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("package-icons/thumbnail-logo-BIDV.jpg"));
 
         // Kiểm tra ảnh có load được không
@@ -21,7 +21,7 @@ public class Login extends JFrame {
             System.out.println("❌ Không tìm thấy hoặc không load được ảnh.");
         }
 
-        // Scale và đặt vào 
+        // Scale và đặt vào
         Image i2 = i1.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel label = new JLabel(i3);

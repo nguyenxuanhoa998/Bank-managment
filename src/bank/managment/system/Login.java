@@ -21,7 +21,7 @@ public class Login extends JFrame {
             System.out.println("❌ Không tìm thấy hoặc không load được ảnh.");
         }
 
-        // Scale và đặt vào JLabel
+        // Scale và đặt vào 
         Image i2 = i1.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel label = new JLabel(i3);

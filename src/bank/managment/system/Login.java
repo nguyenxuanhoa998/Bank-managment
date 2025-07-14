@@ -18,7 +18,7 @@ public class Login extends JFrame {
 
         // Kiểm tra ảnh có load được không
         if (i1.getImageLoadStatus() != MediaTracker.COMPLETE) {
-            System.out.println("❌ Không tìm thấy hoặc không load được ảnh.");
+            System.out.println("❌ Không tìm thấy hoặc không load được ảnh. =)))");
         }
 
         // Scale và đặt vào
